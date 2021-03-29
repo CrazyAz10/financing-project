@@ -1,0 +1,35 @@
+
+/* 主题色 color */
+$--color-primary: #3dac93 !default;
+$--color-success: #13ce66 !default;
+$--color-warning: #FFBA00 !default;
+$--color-danger: #ff4949 !default;
+$--color-info: #E9EFF3 !default;
+
+// #E9EFF3
+// 字体默认值
+$--color-info:#AFBEC8;
+$--color-size: 12px;
+
+$--button-font-weight: 400;
+
+// $--color-text-regular: #1f2d3d;
+
+$--border-color-light: #E9EFF3;
+$--border-color-lighter: #e6ebf5;
+// border 基础颜色
+$--border-color-base: #E9EFF3;
+
+$--table-border: 1px solid #dfe6ec;
+
+$color-white: #fff;
+
+$--color-primary-light-1: mix($color-white, $--color-primary, 10%) !default;
+$--color-primary-light-2: mix($color-white, $--color-primary, 20%) !default;
+$--color-primary-light-3: mix($color-white, $--color-primary, 30%) !default;
+$--color-primary-light-4: mix($color-white, $--color-primary, 40%) !default;
+$--color-primary-light-5: mix($color-white, $--color-primary, 50%) !default;
+$--color-primary-light-6: mix($color-white, $--color-primary, 60%) !default;
+$--color-primary-light-7: mix($color-white, $--color-primary, 70%) !default;
+$--color-primary-light-8: mix($color-white, $--color-primary, 80%) !default;
+$--color-primary-light-9: mix($color-white, $--color-primary, 90%) !default;
