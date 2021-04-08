@@ -1,6 +1,8 @@
 <template>
   <section id="azBanner">
-    <div>
+    <!-- <div class="content--canvas"></div> -->
+    <canvas class="content--canvas"></canvas>
+    <div class="wrap">
       <div class="logo">
         <img src="@/assets/images/DGZ-log.png" alt="">
       </div>
@@ -18,6 +20,9 @@
 
 <script>
 // import '@/utils/swirl.js'
+// import '@/utils/galaxy.js'
+// import '@/utils/galaxy2.js'
+import '@/utils/galaxy3.js'
 export default {
   data(){
     return {}
@@ -43,11 +48,17 @@ export default {
   padding-top: 64px;
   height: 100vh;
   text-align: center;
-  &>div{
+  .wrap{
     width: 100%;
   }
   .content--canvas{
-    opacity: 0.15;
+    background: transparent;
+    opacity: .3;
+    position: absolute;
+    left: -20px;
+    top: 0;
+    right: -20px;
+    bottom: 0;
   }
   .logo{
     img{

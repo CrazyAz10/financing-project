@@ -68,14 +68,19 @@ ul,li{
 }
 
 .main-title{
-  width: 350px;
-  margin: 0 auto;
-  max-width: 100%;
-  border: 1px solid #fff;
-  text-align: center;
-  padding: 14px 28px;
-  line-height: 33px;
-  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  span{
+    display: inline-block;
+    min-width: 350px;
+    margin: 0 auto;
+    max-width: 100%;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 14px 28px;
+    line-height: 33px;
+    font-size: 24px;
+  }
 }
 .main-content{
   width: 765px;
